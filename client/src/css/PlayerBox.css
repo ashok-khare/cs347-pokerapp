@@ -1,0 +1,26 @@
+.playerBox {
+    background-color: lightgrey;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.active {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-image-source: radial-gradient(lightgrey 0%, white 40%, darkgreen);
+}
+
+.inactive {
+    border: 2px solid black;
+}
+
+#blindImage {
+    margin: 0 auto;
+}
+
+.playerCards {
+    margin: auto 0;
+}
